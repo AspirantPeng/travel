@@ -49,7 +49,7 @@ public class UserController {
     }
     @RequestMapping("/test")
     public Map<String, Object>  test(@RequestParam("testParam") String test){
-        System.out.println(test);
+        System.out.println("test git");
         Map<String, Object> map = new HashMap<String, Object>();
         map.put("msg","连接成功");
         return map;
