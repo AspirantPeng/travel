@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="7347" started-at="2019-10-28T08:04:38Z" finished-at="2019-10-28T08:04:45Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="7347" started-at="2019-10-28T08:04:38Z" finished-at="2019-10-28T08:04:45Z">
+      <class name="com.smart.service.ViewServiceTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.smart.service.ViewServiceTest@49fc609f]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="15" started-at="2019-10-28T16:04:38Z" finished-at="2019-10-28T16:04:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.smart.service.ViewServiceTest@49fc609f]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="2072" started-at="2019-10-28T16:04:38Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2019-10-28T16:04:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.smart.service.ViewServiceTest@49fc609f]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="4284" started-at="2019-10-28T16:04:40Z" finished-at="2019-10-28T16:04:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.smart.service.ViewServiceTest.test1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.smart.service.ViewServiceTest@49fc609f]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="4605" started-at="2019-10-28T16:04:40Z" finished-at="2019-10-28T16:04:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.smart.service.ViewServiceTest.test()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.smart.service.ViewServiceTest@49fc609f]" name="test1" duration-ms="138" started-at="2019-10-28T16:04:44Z" finished-at="2019-10-28T16:04:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.smart.service.ViewServiceTest@49fc609f]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="371" started-at="2019-10-28T16:04:45Z" finished-at="2019-10-28T16:04:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.smart.service.ViewServiceTest.test1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.smart.service.ViewServiceTest@49fc609f]" name="test" duration-ms="429" started-at="2019-10-28T16:04:45Z" finished-at="2019-10-28T16:04:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.smart.service.ViewServiceTest@49fc609f]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="202" started-at="2019-10-28T16:04:45Z" finished-at="2019-10-28T16:04:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.smart.service.ViewServiceTest.test()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.smart.service.ViewServiceTest@49fc609f]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2019-10-28T16:04:45Z" finished-at="2019-10-28T16:04:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.smart.service.ViewServiceTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
